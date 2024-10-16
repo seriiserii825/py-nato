@@ -7,3 +7,6 @@ user_input = input("Enter a word: ").upper()
 if user_input != '':
     words = [nato_dict[item] for item in user_input]
     print(f"words: {words}")
+
+# from lesson import lesson
+# lesson()
